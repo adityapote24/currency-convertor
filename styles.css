@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 370px; 
+    height: 440px;
+    
+}
+
+.container h2{
+    font-size: 2rem;
+    color: black;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+form select ,input,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+
+}
+
+form input {
+    border: 2px solid gray;
+    padding: .2rem ;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    height: 3rem;
+    margin: 0.5rem 0 0.5rem 0;
+    
+}
+
+.convertor {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem ;
+    align-items: center;
+}
+
+.convertor i{
+    margin: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1.75rem;
+    
+}
+.selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: .75rem;
+    padding: 0.2rem;
+    width: auto;
+    margin: 0.5rem 0 1rem 0;
+    
+}
+
+.selector img{
+    min-width: 2rem;
+    
+}
+
+.selector select {
+    height: 2rem;
+}
+
+.result_msg {
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif
+}
+
+form button{
+    height: 3rem;
+    font-size: 1.15rem;
+    background-color: rgb(255, 44, 227);
+    color: white;
+    cursor: pointer;
+}
